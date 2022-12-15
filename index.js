@@ -29,6 +29,14 @@ var questions = [{
 {
   question: "Am I coffee person or a tea person? ",
   answer: "coffee"
+},
+{
+    question: "Do I like to ready books? ",
+    answer:"yes"
+},
+{
+    question: "Which school did I passed from? ",
+    answer: "saint mary's"
 }];
 
 
@@ -38,3 +46,12 @@ for (i = 0; i < questions.length; i++) {
 }
 
 console.log("Final score: " + score)
+
+console.log("------------------------")
+console.log("--ANSWERS--\n")
+
+var answers=["dibrugarh","valorant","coffee","yes","saint mary's",]
+
+for(j=0;j<answers.length;j++){
+  console.log(j+1+"."+answers[j])
+}
